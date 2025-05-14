@@ -1,6 +1,6 @@
 import os
 from helper.steve import API_ID, API_HASH
-from src import app
+from bot import app
 from pyrogram import filters , Client
 from helper.steve import (
     users_gc,
