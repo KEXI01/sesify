@@ -5,7 +5,6 @@ from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardBu
 from src.generate import generate_session, ask_ques, buttons_ques, pyrogram_menu_buttons, telethon_menu_buttons
 
 
-# Callbacks
 @Client.on_callback_query()
 async def _callbacks(bot: Client, callback_query: CallbackQuery):
     user = await bot.get_me()
@@ -65,7 +64,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 if query == "pyrogram":
                     await generate_session(bot, callback_query.message)
                 elif query == "pyrogram_bot":
-                    await callback_query.answer("Please note that this bot session will be of pyrogram v2", show_alert=True)
+                    await callback_query.answer("ʙᴏᴛ ꜱᴇꜱꜱɪᴏɴ ᴡɪʟʟ ʙᴇ ᴏꜰ ᴘʏʀᴏɢʀᴀᴍ ᴠ2", show_alert=True)
                     await generate_session(bot, callback_query.message, is_bot=True)
                 elif query == "telethon":
                     await callback_query.answer()
@@ -80,10 +79,8 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
     except Exception as e:
         print(traceback.format_exc())
         print(e)
-        await callback_query.message.reply("An error occurred while processing your request.")
+        await callback_query.message.reply("<blockquote><b>ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ ᴡʜɪʟᴇ ᴘʀᴏᴄᴇꜱꜱɪɴɢ ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ.</b></blockquote>")
 
 
-ERROR_MESSAGE = """ᴏᴏᴘꜱ! ᴀɴ ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀʀᴇᴅ! 
-**ᴇʀʀᴏʀ** : {} 
-
-ᴘʟᴇᴀꜱᴇ ᴠɪꜱɪᴛ @rasedidstore ɪꜰ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴅᴏᴇꜱɴ'ᴛ ᴄᴏɴᴛᴀɪɴ ᴀɴʏ ꜱᴇɴꜱɪᴛɪᴠᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ʏᴏᴜ ɪꜰ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴛʜɪꜱ ᴀꜱ ᴛʜɪꜱ ᴇʀʀᴏʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ɴᴏᴛ ʙᴇɪɴɢ ʟᴏɢɢᴇᴅ ʙʏ ᴜꜱ!"""
+ERROR_MESSAGE = """<blockquote><b>ᴏᴏᴘꜱ! ᴀɴ ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀʀᴇᴅ!</b></blockquote>
+<blockquote><b>ᴇʀʀᴏʀ : {} </b></blockquote>"""
