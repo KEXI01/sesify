@@ -7,7 +7,7 @@ def filter(cmd: str):
     return filters.private & filters.incoming & filters.command(cmd)
 
 
-@Client.on_message(filter("start"))
+"""@Client.on_message(filter("start"))
 async def start(bot: Client, msg: Message):
     user = await bot.get_me()
     mention = user.mention
@@ -23,7 +23,7 @@ async def start(bot: Client, msg: Message):
         f"<blockquote><b>ʙʏ @STORM_CORE ☁️</b></blockquote>",
         reply_markup=InlineKeyboardMarkup(Data.buttons)
     )  # <- This closing parenthesis was missing
-
+"""
 
 @Client.on_message(filter("help"))
 async def _help(bot: Client, msg: Message):
