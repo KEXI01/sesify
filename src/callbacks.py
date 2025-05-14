@@ -2,7 +2,7 @@ import traceback
 from data import Data
 from pyrogram import Client
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
-from StringSessionBot.generate import generate_session, ask_ques, buttons_ques, pyrogram_menu_buttons, telethon_menu_buttons
+from src.generate import generate_session, ask_ques, buttons_ques, pyrogram_menu_buttons, telethon_menu_buttons
 
 
 # Callbacks
