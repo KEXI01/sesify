@@ -32,7 +32,7 @@ class Data:
 <b>ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜꜱᴛ ᴛʜɪꜱ ʙᴏᴛ,
 1) ꜱᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ
 2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ</b></blockquote>
-<blockquote><b>ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ <a href="https://envs.sh/o2l.jpg">?</a>
+<blockquote><b>ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ <a href="https://envs.sh/o2o.mp4">?</a>
 ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ</b></blockquote>
 <blockquote><b>ʙʏ @STORM_CORE ☁️</b></blockquote>
     """
