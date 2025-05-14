@@ -19,9 +19,6 @@ class Data:
             InlineKeyboardButton("ɢᴇɴᴇʀᴀᴛᴇ ᴏɴʟɪɴᴇ", web_app=WebAppInfo(url="https://telegram.tools/session-string-generator#pyrogram,user"))
         ],
         [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ❔", callback_data="help")
-        ],
-        [
             InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ❄️", url="https://t.me/STORM_CORE"),
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 🍁", url="https://t.me/STORM_TECHH")
         ],
