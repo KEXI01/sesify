@@ -5,7 +5,15 @@ Telethon>=1,<2
 pyromod>=1.5,<2
 TgCrypto>=1,<2
 pyrogram>=2,<3
-flask
 gunicorn
-flask_restful
 rich==13.3.1
+pymongo
+motor
+torch
+transformers
+pillow
+heroku3
+python-dotenv
+urllib3
+flask
+flask-restful
