@@ -1,4 +1,4 @@
-from telethon import events, Button
+"""from telethon import events, Button
 from buttons import Data
 
 @client.on(events.NewMessage(pattern="/start", func=lambda e: e.is_private))
@@ -17,4 +17,4 @@ async def start(event):
         f"<blockquote><b>ʙʏ @STORM_CORE ☁️</b></blockquote>",
         parse_mode='html',
         buttons=Data.buttons  # Ensure these are Telethon buttons
-    )
+    )"""
