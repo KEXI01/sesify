@@ -1,5 +1,6 @@
 import os
 from helper.steve import API_ID, API_HASH
+from src import app
 from pyrogram import filters , Client
 from helper.steve import (
     users_gc,
@@ -22,7 +23,7 @@ from telethon.sessions import StringSession
 
 
 
-@Client.on_callback_query(filters.regex("A"))
+@app.on_callback_query(filters.regex("A"))
 async def a_callback(client : Client , query : CallbackQuery):
     chat_id = query.message.chat.id
     session = await client.ask(chat_id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ")    
@@ -39,7 +40,7 @@ async def a_callback(client : Client , query : CallbackQuery):
             disable_web_page_preview=True)
 
     
-@Client.on_callback_query(filters.regex("B"))
+@app.on_callback_query(filters.regex("B"))
 async def b_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -48,7 +49,7 @@ async def b_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("C"))
+@app.on_callback_query(filters.regex("C"))
 async def c_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -58,7 +59,7 @@ async def c_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("D"))
+@app.on_callback_query(filters.regex("D"))
 async def d_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -67,7 +68,7 @@ async def d_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("E"))
+@app.on_callback_query(filters.regex("E"))
 async def e_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -77,7 +78,7 @@ async def e_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("F"))
+@app.on_callback_query(filters.regex("F"))
 async def f_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -87,7 +88,7 @@ async def f_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("G"))
+@app.on_callback_query(filters.regex("G"))
 async def g_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -98,7 +99,7 @@ async def g_callback(client : Client, query : CallbackQuery):
             disable_web_page_preview=True)
 
 
-@Client.on_callback_query(filters.regex("H"))
+@app.on_callback_query(filters.regex("H"))
 async def h_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -107,7 +108,7 @@ async def h_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("I"))
+@app.on_callback_query(filters.regex("I"))
 async def i_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")
@@ -116,7 +117,7 @@ async def i_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("J"))
+@app.on_callback_query(filters.regex("J"))
 async def j_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")    
@@ -125,7 +126,7 @@ async def j_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("K"))
+@app.on_callback_query(filters.regex("K"))
 async def k_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")    
@@ -136,7 +137,7 @@ async def k_callback(client : Client, query : CallbackQuery):
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
-@Client.on_callback_query(filters.regex("L"))
+@app.on_callback_query(filters.regex("L"))
 async def l_callback(client : Client, query : CallbackQuery):
     id = query.message.chat.id   
     session = await client.ask(id,"ɴᴏᴡ ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴛʜᴀᴛ ᴜsᴇʀ.")    
