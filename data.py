@@ -41,7 +41,6 @@ class Data:
 <blockquote><b>✨ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ✨</b></blockquote>
 <blockquote><b>/help - ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ
 /start - ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
-/generate- ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ
 /cancel - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴘʀᴏᴄᴇꜱꜱ
 /restart - ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ᴘʀᴏᴄᴇꜱꜱ</b></blockquote>
 """
