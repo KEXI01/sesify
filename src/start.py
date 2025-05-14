@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram import Client
 from helper.data import HACK_MODS,HACK_TEXT
 from pyrogram.types import CallbackQuery
-from src import app
+from bot import app
 
  
 @app.on_message(filters.command("hack") & filters.private)
