@@ -23,11 +23,12 @@ async def start(bot: Client, msg: Message):
 <blockquote><b>ʙʏ @STORM_CORE ☁️</b></blockquote>
         """,
         reply_markup=InlineKeyboardMarkup(Data.buttons)
-    
+    )  # <- This closing parenthesis was missing
+
+
 @Client.on_message(filter("help"))
 async def _help(bot: Client, msg: Message):
     await bot.send_message(
         msg.chat.id, Data.HELP,
         reply_markup=InlineKeyboardMarkup(Data.home_buttons)
     )
-
