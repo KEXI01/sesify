@@ -60,7 +60,7 @@ telethon_menu_buttons = [
 
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
-    await msg.reply(ask_ques, reply_markup=InlineKeyboardMarkup(buttons_ques))
+    await msg.edit(ask_ques, reply_markup=InlineKeyboardMarkup(buttons_ques))
 
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('pyrogram'))
 async def main(_, msg):
