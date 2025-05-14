@@ -7,7 +7,7 @@ class Data:
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="« ʙᴀᴄᴋ", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
@@ -19,26 +19,24 @@ class Data:
             InlineKeyboardButton("ɢᴇɴᴇʀᴀᴛᴇ ᴏɴʟɪɴᴇ", web_app=WebAppInfo(url="https://telegram.tools/session-string-generator#pyrogram,user"))
         ],
         [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ❔", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎪", callback_data="about"),
-            InlineKeyboardButton("ꜱᴇꜱꜱɪᴏɴ ᴀɴᴀʟʏᴢᴇʀ", web_app=WebAppInfo(url="https://telegram.tools/session-string-analyzer"))
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ❔", callback_data="help")
         ],
-        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ❄️", url="https://t.me/STORM_CHATZ")],
+        [
+            InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ❄️", url="https://t.me/STORM_CORE"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 🍁", url="https://t.me/STORM_TECHH")
+        ],
     ]
 
     START = """
-ʜᴇʏ 💐
-
-ᴡᴇʟᴄᴏᴍᴇ {}
-
-ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜꜱᴛ ᴛʜɪꜱ ʙᴏᴛ,
+<blockquote><b>ʜᴇʏ 💐</b>
+<b>ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜꜱᴛ ᴛʜɪꜱ ʙᴏᴛ,
 1) ꜱᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ
-2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ 
+2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ</b></blockquote>
 
-ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ?
-ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
+<blockquote><b>ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ?
+ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ</b></blockquote>
 
-ʙʏ @STORM_CHATZ ☁️
+<blockquote><b>ʙʏ @STORM_CORE ☁️</b></blockquote>
     """
 
     HELP = """
