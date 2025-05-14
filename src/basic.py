@@ -13,9 +13,16 @@ async def start(bot: Client, msg: Message):
     mention = user.mention
     await bot.send_message(
         msg.chat.id,
-        Data.START.format(msg.from_user.mention, mention),
+        f"""
+<blockquote><b>ʜᴇʏ {msg.from_user.mention} 💐</b>
+<b>ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜꜱᴛ ᴛʜɪꜱ ʙᴏᴛ,
+1) ꜱᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ
+2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ</b></blockquote>
+<blockquote><b>ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ <a href="https://envs.sh/o2o.mp4">?</a>
+ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴠ2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ</b></blockquote>
+<blockquote><b>ʙʏ @STORM_CORE ☁️</b></blockquote>
+        """,
         reply_markup=InlineKeyboardMarkup(Data.buttons)
-    )
     
 @Client.on_message(filter("help"))
 async def _help(bot: Client, msg: Message):
