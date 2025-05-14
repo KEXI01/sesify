@@ -1,4 +1,4 @@
-from pyrogram import filters
+"""from pyrogram import filters
 from pyrogram.types import CallbackQuery
 from helper.data import HACK_MODS, HACK_TEXT
 from pyrogram import Client
@@ -17,3 +17,4 @@ async def heck_callback(_, query: CallbackQuery):
         HACK_TEXT,
         reply_markup=HACK_MODS
     )
+"""
